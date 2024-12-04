@@ -1,0 +1,12 @@
+.bg-container {
+    background-image: url("https://wallpapers.com/images/hd/podcast-background-1136-x-852-wmfl99gn74zdkus3.jpg");
+    height: 75vh;
+    border-radius: 12px;
+}
+.head11 {
+    font-size: 70px;
+    color: rgb(37, 216, 226);
+    font-weight: 750;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

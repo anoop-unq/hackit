@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Base styling */
+body {
+    margin: 0;
+    background-image: url('https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200');
+    background-size: cover;
+    min-height: 125vh;
+}
+
+.signup-center {
+    position: relative;
+    top: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-center .signup {
+
+    position: absolute;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 425px;
+    margin: 21px;
+    box-shadow: 0px 0px 15px rgb(152, 224, 250);
+
+
+}
+
+.para {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: 750;
+}
+
+#newUser {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#confirmpassword {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+#password {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.signup-text {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 150;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input::placeholder {
+    color: whitesmoke;
+    font-family: poppins, sans-serif;
+}
+
+.signup input {
+    margin: 10px;
+    padding: 7px;
+    width: 80%;
+    border-radius: 7px;
+    color: #ff00a6;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    font-size: 25px;
+    font-weight: 451;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    transition: 0.5s;
+}
+
+.signup input:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 850;
+    font-size: 1.7em;
+}
+
+.btn {
+    background: #1100ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 23px;
+    width: 55px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 3px #00e5ff;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    background: #ff5722;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 39px;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 3px rgb(255, 192, 3);
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+.btn:hover {
+    transform: scale(1.3);
+}
+a {
+    text-decoration: none;
+}
+
+.switch {
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 251, 255);
+}
+
+.switch::after {
+    position: absolute;
+    content: '';
+    background-color: #ff0000;
+    height: 2px;
+    left: 0;
+    cursor: pointer;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.switch:hover::after {
+    width: 100%;
+}
+.error-text {
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: 250;
+    font-family: Roboto;
+}
+.break {
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Times New Roman;
+}
+.contain-ship {
+    background-color: #00e5ff;
+    height: 100vh;
+}
+.shipless {
+    background-color: azure;
+    border-radius: 21px;
+    margin: 11px;
+    width: 255px;
+}

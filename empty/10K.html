@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background: linear-gradient(to right, rgb(239, 232, 110), rgb(239, 221, 26)), radial-gradient(circle, rgb(0, 0, 3), transparent); width: 100%;">
+        <div style="display: flex; flex-direction: row; justify-content: center;">
+            <h1 style="color: black; font-size: 35px;">10<span style="font-size: 70px; color: rgb(255, 1, 1); ">K </span></h1>
+            <sub>
+                <h2 style="color: rgb(0, 8, 255); font-size: 85px; margin-bottom: 0px; font-family: 'Roboto', sans-serif;"> C<span style="color: rgb(255, 255, 255);">oders</span></h2>
+            </sub>
+                    </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+        <div style="background-color: rgb(252, 254, 255); border-radius: 25px; margin: 7px; padding: 15px; padding-left: 15px; width: 525px; margin-bottom: 29px;">
+            <center>
+            <h1 style= "background: linear-gradient(to right , rgb(8, 165, 165),rgba(29, 0, 219, 0.996)); border-radius: 55px; width: 391px; color: rgb(255, 0, 0); text-align: center;  padding: 5px; margin: 11px;">Online <span style="color: rgb(89, 252, 1);">Registration Form</span></h1>
+            <form>
+            <div style="display: flex; flex-direction: row;">
+            <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                <label style=" margin: 5px; font-size: 27px; font-weight: 750;">First Name</label> 
+            <input type="text" name="firstname" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+            </div>
+            <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                <label style=" margin: 5px; font-size: 27px; font-weight: 750;">Last Name</label> 
+            <input type="text" name="lastname" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+            </div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                    <label for="dob" style=" margin: 5px; font-size: 25px; font-weight: 750;">Date Of Birth</label> 
+                <input type="date" id="dob" name="dateofBirth" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+                </div>
+                <div style="margin: 31px; padding: 1px; padding-left: 45px; display: flex; flex-direction: column;">
+                    <h1 style=" margin: 5px; font-size: 25px; font-weight: 750;">Gender</h1>
+                    <div style=" margin-top: 5px; display: flex; flex-direction: row; margin-left: 5px;">
+                    <input type="radio" name="gender" value="Male" id="malegender" style="margin-right: 5px;">
+                    <label for="malegender" style="margin-right: 11px; font-size: 21px; font-weight: 750;">Male</label>
+                    <input type="radio" name="gender" value="female" id="femalegender" style="margin-right: 5px;">
+                    <label for="femalegender" style=" font-size: 21px; font-weight: 750;">Female</label>
+                </div>
+                </div>
+                </div>
+                <div style="display: flex; flex-direction: row;">
+                    <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                        <label style=" margin: 5px; font-size: 25px; font-weight: 750;">Email</label> 
+                    <input type="email" name="email" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+                    </div>
+                    <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                        <label for="mobile" style=" margin: 5px; font-size: 24px; font-weight: 750;">Phone Number</label> 
+                    <input type="number" id="mobile" name="mobile"  maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);" 
+                         required 
+                         title="Please enter exactly 10 digits" 
+                         style="border-radius: 10px;  border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+                    </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                            <label style=" margin: 5px; font-size: 27px; font-weight: 750;">College Name</label> 
+                        <input type="text" name="firstname" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+                        </div>
+                        <div style="margin: 21px; padding: 1px; padding-left: 5px; display: flex; flex-direction: column;">
+                            <label for="year" style=" margin: 5px; font-size: 25px; font-weight: 750;">Graduated Year</label> 
+                            <select id="year" name="year" style="border-radius: 10px; border-color: rgb(0, 145, 235); width: 100%; height: 31px; border-width: 3px; font-size: 19px; margin-top: 7px;">
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                              </select>
+                              
+                        </div>
+                        </div>
+
+                   
+                    <h1 style= "background: linear-gradient(to right , rgb(35, 34, 37),rgba(203, 38, 235, 0.996)); border-radius: 55px; width: 391px; color: rgb(255, 0, 0); text-align: center;  padding: 5px; margin: 11px;">Course <span style="color: rgb(89, 252, 1);">Selection !</span></h1>
+                
+                        <h1 style="color: rgb(238, 1, 255);">Which Course Interests You !</h1>
+                        <div style="display: flex; flex-direction: row; justify-content: start; margin-bottom: 10px;">
+                        <input type="radio" name="course" value="fullstack" id="fullstack" style="margin-right: 8px;"><label for="fullstack" style="margin-right: 11px; font-size: 21px; font-weight: 750; color: rgb(251, 8, 8);">Full Stack Java</label>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 10px;">
+                        <input type="radio" name="course" value="fullstackpython" id="fullstackpython" style="margin-right: 8px;"><label for="fullstackpython" style="margin-right: 11px; font-size: 21px; font-weight: 750; color: #000000;">Full Stack Python</label>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: start; margin-bottom: 10px;">
+                        <input type="radio" name="course" value="mernstack" id="mernstack" style="margin-right: 8px;"><label for="mernstack" style="margin-right: 11px; font-size: 21px; font-weight: 750; color: rgb(43, 0, 255);">MERN Stack</label>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 10px;">
+                        <input type="radio" name="course" value="meanstack" id="meanstack" style="margin-right: 8px;"><label for="meanstack" style="margin-right: 11px; font-size: 21px; font-weight: 750; color: rgb(2, 233, 2);">MEAN Stack</label>
+                        </div>
+                    </center>
+                        <h2 style="color: rgb(0, 0, 0);">What skills have been mastered to date</h2>
+                        <div style="display: flex; flex-direction: column; justify-content: center;">
+                        <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 1px;">
+                            <input type="checkbox" value="html" id="html" style="width: 25px;"><label for="html" style="font-weight: 550; font-size: 21px; color: rgb(255, 0, 0); margin-right: 7px;">HTML</label>
+                            <input type="checkbox" value="css" id="css" style="width: 25px;"><label for="css" style="font-weight: 550; font-size: 21px; color: rgb(254, 0, 0); margin-right: 7px;">CSS</label>
+                            <input type="checkbox" value="js" id="js" style="width: 25px;"><label for="js" style="font-weight: 550; font-size: 21px; color: rgb(255, 1, 1);">JavaScript</label>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 21px; margin-bottom: 12px;">
+                            <input type="checkbox" value="bootstrap" id="bootstrap" style="width: 25px;"><label for="bootstrap" style="font-weight: 550; font-size: 21px; color: rgb(0, 51, 255); margin-right: 7px;">Bootstrap</label>
+                            <input type="checkbox" value="python" id="python" style="width: 25px;"><label for="python" style="font-weight: 550; font-size: 21px; color: rgb(0, 51, 255); margin-right: 7px;">Python</label>
+                            <input type="checkbox" value="java" id="java" style="width: 25px;"><label for="java" style="font-weight: 550; font-size: 21px; color: rgb(0, 51, 255);">Java</label>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 45px; margin-top: 11px;">
+                            <input type="checkbox" value="React" id="React" style="width: 25px;"><label for="React" style="font-weight: 550; font-size: 21px; color: rgb(235, 53, 245); margin-right: 7px;">React</label>
+                            <input type="checkbox" value="Angular" id="Angular" style="width: 25px;"><label for="Angular" style="font-weight: 550; font-size: 21px; color: rgb(255, 53, 215); margin-right: 7px;">Angular</label>
+                            <input type="checkbox" value="C#" id="C#" style="width: 25px;"><label for="C#" style="font-weight: 550; font-size: 21px; color: rgb(255, 72, 197);">C#</label>
+                        </div>
+                    </div>
+                    <center>
+                        <button style= "filter: drop-shadow(1px 1px 1px rgb(3, 194, 233)); border-radius: 7px; background-color: rgb(162, 238, 225); width: 100px; height: 7vh; padding: 9px; border-width: 3px; border-color: rgb(89, 0, 255);">Submit</button>
+                    </center>
+                    
+      </div>
+    </div>
+    </form>
+</body>
+</html>

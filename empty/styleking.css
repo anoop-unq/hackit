@@ -1,0 +1,79 @@
+.head11 {
+    font-size: 37px;
+    text-align: center;
+    font-weight: 652;
+    color: #840D10;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+.para {
+    font-size: 21px;
+    color: #1F0101;
+    font-weight: 175;
+    font-family: Arial, Helvetica;
+    text-decoration: solid;
+}
+.head55 {
+    font-size: 31px;
+    color: #1388DC;
+    font-weight: 750;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+}
+.contain {
+    margin-left: 75px;
+}
+.head515 {
+    font-size: 31px;
+    color: #012843;
+    font-weight: 750;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+}
+.icon-style {
+    width: 135px;
+    height: 105px;
+    color: rgb(15, 15, 14);
+    padding: 25px;
+}
+.middle-text{
+    font-size: 15px;
+    color: #1388DC;
+    font-weight: 350;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list{
+    font-size: 21px;
+    margin: 5px;
+    color: rgb(26, 6, 6);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.normal
+{
+    font-size: 17px;
+    margin: 5px;
+    color: rgb(26, 6, 6);
+    font-family: Times New Roman;
+    font-weight: 0;
+}
+.text-msg {
+    font-weight: 250;
+    color: #141111;
+    font-family: arial;
+}
+
+.text-msg-center {
+    font-weight: 250;
+    color: #141111;
+    font-family: arial;
+    text-align: center;
+}
+.list-type{
+    font-size: 21px;
+    color: black;
+    font-weight: 285;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}

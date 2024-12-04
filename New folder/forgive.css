@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background: url('1552.jpg_wh1200.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+    font-style: oblique;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-container .contain {
+    position: absolute;
+    top: 75px;
+    background-color: transparent;
+    width: 365px;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 80%;
+    height: 13px;
+    outline-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 11px;
+    padding: 11px;
+    margin: 11px; 
+}
+label {
+    margin: 3px 18px;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 255, 98);
+}
+
+.btn {
+    background: #17016796;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 37px;
+    width: 85px;
+    margin-top: 25px;
+    margin-bottom: 21px;
+    margin-left: 75px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 19px 3px rgb(234, 234, 92);
+    transition: transform 0.3s ease-in-out;
+}
+button:hover {
+    transform: scale(1.1);
+}
+button {
+    background: #ff5722;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 37px;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 21px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 1px rgb(0, 105, 252);
+    transition: transform 0.7s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.text-center {
+    margin: 21px;
+}
